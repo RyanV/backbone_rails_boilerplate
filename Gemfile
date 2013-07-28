@@ -6,7 +6,6 @@ gem 'jbuilder', '~> 1.2' # Build JSON APIs with ease. Read more: https://github.
 gem 'rails', '4.0.0'
 gem 'pg'
 gem 'sass-rails', '~> 4.0.0'
-gem 'sdoc', group:[:doc], require: false # bundle exec rake doc:rails generates the API under doc/api.
 gem 'thin'
 gem 'uglifier', '>= 1.3.0'
 
@@ -19,4 +18,8 @@ end
 group :development, :test do
   gem 'jasmine'
   gem 'rspec-rails'
+end
+
+group :doc do
+  gem 'sdoc', require: false  # bundle exec rake doc:rails generates the API under doc/api.
 end
