@@ -1,28 +1,8 @@
-== README
+boiler plate application to use as a base for building new apps
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+To use, clone the application then rename the application throughout the app.  also don't forget to remove the .git file and run `git init`
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+=====Short term TODO:
+-add rename task to rename application
+=====Long term TODO:
+-move this into a gem executable that doesn't requiring cloning, renaming, etc.
