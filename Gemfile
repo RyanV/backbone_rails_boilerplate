@@ -18,6 +18,8 @@ group :development, :test do
   gem 'jasmine'
   gem 'poltergeist'
   gem 'rspec-rails'
+  gem 'factory_girl_rails'
+  gem 'faker'
 end
 
 group :doc do
