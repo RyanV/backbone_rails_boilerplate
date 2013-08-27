@@ -7,8 +7,9 @@ module FileHelper
 
   def write file_path, old_name, new_name
     puts colorize("    rename : #{file_path}", :cyan)
+    data = read(file_path)
     File.open(file_path, 'w') do |f|
-      f.puts read(file_path).gsub(old_name, new_name)
+      f.puts data.gsub(old_name, new_name)
     end
   end
 
