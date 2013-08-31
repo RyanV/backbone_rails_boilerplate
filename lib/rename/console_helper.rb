@@ -12,6 +12,6 @@ module ConsoleHelper
 
   def prompt string
     print "#{string}: "
-    gets
+    gets.chomp
   end
 end
