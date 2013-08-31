@@ -2,7 +2,6 @@ source 'https://rubygems.org'
 ruby '2.0.0'
 
 gem 'bootstrap-sass'
-gem 'compass-rails'
 gem 'jbuilder', '~> 1.2' # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'rails', '4.0.0'
 gem 'pg'
